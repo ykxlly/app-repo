@@ -1,0 +1,19 @@
+{
+  "build": {
+    "production": {
+      "releaseChannel": "production",
+      "ios": {
+        "buildType": "release",
+        "autoIncrement": "buildNumber",
+        "distribution": "store"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "$ASC_APP_ID"
+      }
+    }
+  }
+}
